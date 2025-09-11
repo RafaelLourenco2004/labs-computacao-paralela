@@ -14,7 +14,7 @@ int main(){
         }
 
         if (pid < 0){
-            printf("Fork falhou.");;
+            printf("Fork falhou.");
             return -1;
         }
     }
